@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home page</title>
+</head>
+<body>
+    <h1>Home page</h1>
+    <h3>Hello</h3>
+    {% for i in content  %}
+        
+        <p>{{i}}</p>
+        {% if i=="virat" %}
+            <p>18</p>
+        {% elif i=="rohith" %}
+            <p>45</p>
+        {% else %}
+            <p>25</p>
+        {% endif %}
+        
+    {% endfor %}
+    
+</body>
+</html>
+
