@@ -3,7 +3,7 @@ app=Flask(__name__)
 
 @app.route("/<name>")
 def home(name):
-    return render_template("index.html",content=["virat","rohith","dhawan"])
+    return render_template("index2.html",content=["virat","rohith","dhawan"])
 
 
 if __name__ == "__main__":
